@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_activity_view"
+    tools:context="kii.com.gfapp.MainActivity">
+
+    <Button
+        android:id="@+id/read_steps_button"
+        android:layout_width="157dp"
+        android:layout_height="92dp"
+        android:text="Read Fit Datas"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="128dp"
+        android:layout_marginLeft="114dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
